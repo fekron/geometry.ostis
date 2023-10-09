@@ -2,7 +2,7 @@
 
 ./copy_ims_kb.sh
 
-export LD_LIBRARY_PATH=../sc-machine/bin
+export LD_LIBRARY_PATH="/home/$USER/geometry.ostis/sc-machine/bin"
 if [ ! -d "../kb.bin" ]; then
     mkdir ../kb.bin
 fi
